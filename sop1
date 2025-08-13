@@ -1,0 +1,49 @@
+index.html 
+<html> 
+<head><title>A.I.J Mhasla</title> 
+<style> 
+body{background-color:pink} 
+.img{border:groove 8px red} 
+</style> 
+<meta name="keywords" content="school"> 
+</head> 
+<body> 
+<H1 align="center"> ANJUMAN COLLEGE</H1> 
+<center><img src="AIJ.png" class="img" height="200" width="300"></center> 
+<p align="justify"> 
+<big>Anjuman</big> college is located in <u>Mhasla</u>. It has all the three streams 
+<b>Arts</b>, <b>Commerce</b> and <b>Science</b>. We have four Labs in our college. 
+<i>Information Technology Lab, Biology Lab, Chemistry Lab and Physics Lab.</i></p> 
+<br> 
+<img src="final logo.png" height="100px" width="100px" style="float:right"> 
+<h3>Address:</h3> 
+Anjuman-E-Islam Janjira High School & Junior College,<br> Near Bus Station, Mhasla, 
+Raigad. 
+<br><br><br><br> 
+<hr color="navy" size="4"><br> 
+<a href="page2.html">Registration Form</a> 
+</body></html>x
+
+Page2.html 
+<html><head> 
+<title>A.I.J Mhasla</title> 
+<style> 
+body{background-color:olive;color:aqua} 
+h1{color:black;text-decoration:underline} 
+</style> 
+<meta name="keyword" content="registration form"> 
+</head> 
+<body> 
+<H1 align="center"> Student Registration Form</H1> 
+<form name="p1"> 
+Enter your Name: <input type="text" name="a"> 
+<br><br> 
+Enter your Email:<input type="email" name="e1"><br><br> 
+<input type="submit" value="SUBMIT"> 
+</form> 
+<hr width="85%" color="white"> 
+<br> 
+<a href="index.html">Home page</a><br> 
+</body> 
+</html>
+
