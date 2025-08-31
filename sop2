@@ -1,0 +1,45 @@
+form.html 
+<!doctype html> 
+<html> 
+<head><title>Information form</title> 
+<link href="external.css" rel="stylesheet" type="text/css"> 
+</head> 
+<body> 
+<h1 align="center">Traveller Information Form</h1> 
+<form> 
+Enter your name:<input type="text" name="n1" autocomplete/> 
+<br><br> 
+Select Date of Travel:<input type="date" name="d1"/> 
+<br><br> 
+Enter Phone Number:<input type="tel" placeholder="123-456-7890" pattern="[0-9]{3}- 
+[0-9]{3}-[0-9]{4}" required> 
+<br><br> 
+<input type="image" src="submit.jpg" height="50" width="120"/> 
+</form> 
+<br><br> 
+<a href="travelinfo.html">Transporter Info</a></body> 
+</html> 
+
+travelinfo.html 
+<!doctype html> 
+<html> 
+<head> 
+<title>Transporter Info</title> 
+<link href="external.css" rel="stylesheet" type="text/css"> 
+</head> 
+<body> 
+<h1 align="center">Information about Transporter</h1> 
+<ul> 
+<li>Name of Transporter: Air Asia</li> 
+<li>Time: 09.30 am</li> 
+<li>Seat No.: B39</li> 
+<li>Destination: Delhi</li> 
+</ul> 
+<a href="form.html">Traveller Info Form</a> 
+</body> 
+</html> 
+external.css 
+h1{background-color:chocolate;border:double 5px} 
+body{background-color:cadetblue} 
+ul{font-family:simsun;font-size:18px} 
+form{font-size:20px}
