@@ -1,0 +1,38 @@
+audio1.html 
+<!doctype html> 
+<html> 
+<head><title>Audio file</title 
+</head> 
+<body> 
+<h1 align="center">Audio File with Controls</h1> 
+<br> 
+<br> 
+<audio src="C:\Users\PC-17\Downloads\twotone.mp3" 
+type="audio/mp3" controls autoplay loop> 
+</audio> 
+</body> 
+</html> 
+ 
+audio2.html 
+<!doctype html> 
+<html> 
+<head><title>Multiple Audio files</title> 
+</head> 
+<body> 
+<h1 align="center">Multiple Audio Files with Controls</h1> 
+<h2>List of audio files format:</h2> 
+<ol> 
+<li>mp3 - audio/mpeg</li> 
+<li>ogg - audio/ogg</li> 
+<li>wav - audio/wav</li> 
+</ol> 
+<audio controls autoplay> 
+<source src="piano.mp3" type="audio/mp3"> 
+<source src="piano.ogg" type="audio/ogg"> 
+<source src="piano.wav" type="audio/wav"> 
+<h3>your browser does not support the Audio Element...</h3> 
+</audio> 
+<h3 style="color:red">[note: The text between the audio tag will only be 
+displayed in those which do not support Audio Element]</h3> 
+</body> 
+</html>
